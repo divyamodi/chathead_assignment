@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chathead</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="//daneden.github.io/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- styles-->
+    <link rel=" stylesheet" type="text/css" href="css/main.css">
+    <link rel=" stylesheet" type="text/css" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="path/to/dist/feather.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md ">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-user-friends mr-2"></i>Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-comment-alt mr-2"></i>Messages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-video mr-2"></i>Video Calls</a>
+          </li>
+        </ul>
+
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+
+<main role="main" class="container-fluid bg-grey p-4">
+
+  <div class="row">
+    <div class="col-md-12 p-0">
+      <div class="starter-template">
+
+
+        <!-- tab content starts here -->
+        <div class="tab-content" id="myTabContent">
+
+          <!-- content 1 -->
+          <div class="tab-pane masonry-container fade  show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div class="user-block p-2">
+
+                            <div class="user-img">
+                                <img src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=04fc74cb01d267c20b706d27c2c493e5" alt="">
+                            </div>
+                            <div class="user-info text-center">
+                                <h6 class="my-2 bold">Robin Wang</h6>
+                                <p class="my-2 ">Lorem ipsum dolor sit amet <br>consectetur.</p>
+                            </div>
+                        </div>
+                        <div id="main-menu" class="list-group">
+                            <a href="#sub-menu1" class="list-group-item active" data-toggle="collapse" data-parent="#main-menu"><i class="fas fa-comment-alt mr-2"></i>Messages <span class="caret"></span></a>
+                            <div class="collapse list-group-level1" id="sub-menu1">
+                                <a href="#" class="list-group-item" data-parent="#sub-menu1">Chats</a>
+                                <a href="#" class="list-group-item" data-parent="#sub-menu1">Send Messages</a>
+                                <!-- <a href="#sub-sub-menu" class="list-group-item" data-toggle="collapse" data-parent="#sub-menu">Sub Item 3 <span class="caret"></span></a>
+                                <div class="collapse list-group-level2" id="sub-sub-menu">
+                                    <a href="#" class="list-group-item" data-parent="#sub-sub-menu">Sub Sub Item 1</a>
+                                    <a href="#" class="list-group-item" data-parent="#sub-sub-menu">Sub Sub Item 2</a>
+                                    <a href="#" class="list-group-item" data-parent="#sub-sub-menu">Sub Sub Item 3</a>
+                                </div> -->
+                            </div>
+                            <a href="#sub-menu2" class="list-group-item" data-toggle="collapse" data-parent="#main-menu"><i class="fas fa-user-friends mr-2"></i>Groups <span class="caret"></span></a>
+                            <div class="collapse list-group-level1" id="sub-menu2">
+                                <a href="#" class="list-group-item" data-parent="#sub-menu2">Chats</a>
+                                <a href="#" class="list-group-item" data-parent="#sub-menu2">Send Messages</a>
+                            </div>
+                            <a href="#" class="list-group-item"><i class="fas fa-video mr-2"></i>Video Calls</a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="center-heading py-4">
+                                        <h5><i class="fas fa-comment-alt mr-3 font-pink"></i>Messages</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="chat-block">
+                                        <div class="row">
+
+                                            <div class="col-12 col-md-4 col-lg-4">
+                                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                    <h6 class="text-muted p-3 m-0 chat-header">Chats <span class="total-chats float-right">29/30</span> </h6>
+                                                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="col-3 p-0">
+                                                                <div class="chat-person-img">
+                                                                    <img src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=04fc74cb01d267c20b706d27c2c493e5" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-9 p-0">
+                                                                <div class="chat-person-details">
+                                                                    <h6 class="font-pink">Olivia Gol</h6>
+                                                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectet elit.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted mt-4 float-left">9 Jan, 2019 | 3:49 PM</span>
+                                                        <span class="text-muted mt-4 float-right"><i class="fas fa-eye mr-2 text-success"></i>20 Replies | <i class="fas fa-align-left mr-2 fa-rotate-270"></i> 290/300</span>
+                                                    </a>
+                                                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="col-3 p-0">
+                                                                <div class="chat-person-img">
+                                                                    <img src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=04fc74cb01d267c20b706d27c2c493e5" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-9 p-0">
+                                                                <div class="chat-person-details">
+                                                                    <h6 class="font-pink">Olivia Gol</h6>
+                                                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectet elit.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted mt-4 float-left">9 Jan, 2019 | 3:49 PM</span>
+                                                        <span class="text-muted mt-4 float-right"><i class="fas fa-eye mr-2 text-success"></i>20 Replies | <i class="fas fa-align-left mr-2 fa-rotate-270"></i> 290/300</span>
+                                                    </a>
+                                                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="col-3 p-0">
+                                                                <div class="chat-person-img">
+                                                                    <img src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=04fc74cb01d267c20b706d27c2c493e5" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-9 p-0">
+                                                                <div class="chat-person-details">
+                                                                    <h6 class="font-pink">Olivia Gol</h6>
+                                                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectet elit.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted mt-4 float-left">9 Jan, 2019 | 3:49 PM</span>
+                                                        <span class="text-muted mt-4 float-right"><i class="fas fa-eye mr-2 text-success"></i>20 Replies | <i class="fas fa-align-left mr-2 fa-rotate-270"></i> 290/300</span>
+                                                    </a>
+                                                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="col-3 p-0">
+                                                                <div class="chat-person-img">
+                                                                    <img src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=04fc74cb01d267c20b706d27c2c493e5" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-9 p-0">
+                                                                <div class="chat-person-details">
+                                                                    <h6 class="font-pink">Olivia Gol</h6>
+                                                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectet elit.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="text-muted mt-4 float-left">9 Jan, 2019 | 3:49 PM</span>
+                                                        <span class="text-muted mt-4 float-right"><i class="fas fa-eye mr-2 text-success"></i>20 Replies | <i class="fas fa-align-left mr-2 fa-rotate-270"></i> 290/300</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-8 col-lg-8">
+                                                <h6 class="text-muted py-3 m-0 "><i class="fas fa-eye mr-2 text-success"></i>Replies <span class=""><i class="fas fa-align-left mr-2 fa-rotate-270"></i>Reports</span> </h6>
+                                                <div class="tab-content h-60" id="v-pills-tabContent">
+                                                    <div class="conversation tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                                        <div class="conversation-container message-box">
+                                                            <!-- Without Name nor Arrow - LEFT -->
+                                                            <p class="text-muted text-center"> Today</p>
+                                                            <div class="msg">
+                                                                <div class="bubble follow">
+                                                                    <div class="txt">
+                                                                        <span class="message follow">Think of the possibilities. &#x1f60d; </span>
+                                                                        <span class="timestamp">10:21 pm</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- With Name and Arrow - RIGHT -->
+                                                            <div class="msg">
+                                                                <div class="bubble alt">
+                                                                    <div class="txt">
+                                                                        <!-- <span class="name alt">My Name
+                                                                        </span> -->
+                                                                        <p class="message">It's nuts, dude. Nuts</p>
+                                                                        <span class="timestamp">10:22 pm</span>
+                                                                    </div>
+                                                                    <div class="bubble-arrow alt"></div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- With Number and Name and Arrow - LEFT -->
+                                                            <div class="msg">
+                                                                <div class="bubble">
+                                                                    <div class="txt">
+                                                                        <!-- <span class="name">+353 87 1234 567<span> ~ John</span></span> -->
+                                                                        <p class="message">Hey, check out this Pure CSS speech bubble...</p>
+                                                                        <span class="timestamp">10:20 pm</span>
+                                                                    </div>
+                                                                    <div class="bubble-arrow"></div>
+                                                                </div>
+                                                            </div>
+
+                                                            <!-- Without Name nor Arrow - RIGHT -->
+                                                            <div class="msg">
+                                                                <div class="bubble altfollow">
+                                                                    <div class="txt">
+                                                                        <p class="message follow">
+                                                                            Thanks Benni! You the real mvp
+                                                                        </p>
+                                                                        <span class="timestamp">10:21 pm</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <form class="conversation-compose">
+                                                            <div class="emoji">
+                                                                <a href="#"> <i class="fas fa-plus-circle font-pink fa-lg mt-3 mr-2"></i></a>
+                                                            </div>
+                                                            <input class="input-msg" name="input" placeholder="Type a message" autocomplete="off" autofocus="">
+                                                            <div class="photo">
+                                                            <i class="zmdi zmdi-camera"></i>
+                                                            </div>
+                                                            <button class="send">
+                                                            <div class="circle">
+                                                            <i class="fas fa-location-arrow mr-2"></i> Send
+                                                            </div>
+                                                            </button>
+                                                            </form>
+                                                    </div>
+                                                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- content 2 -->
+          <div class="tab-pane fade masonry-container" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <h3>Tab 2 Content</h3>
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1501743029101-21a00d6a3fb9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=04fc74cb01d267c20b706d27c2c493e5" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1488740304459-45c4277e7daf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=49bcc37a7a6a0de2eb984e74d19f472d" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1482066490729-6f26115b60dc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=3f77fa1436c24f2227c3b69ba66cd088" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- content 3 -->
+          <div class="tab-pane fade masonry-container" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <h3>Tab 3 Content</h3>
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1433162653888-a571db5ccccf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=459d195af49a3331fd7815ce743fd4c8" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1494947665470-20322015e3a8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=e0a403101d9ddf75a0ff3fffdaac3e77" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1507682520764-93440a60e9b5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ%3D%3D&s=11800f8d2bc199aa310594f9ea4406eb" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+</body>
+
+</html>

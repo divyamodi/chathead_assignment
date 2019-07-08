@@ -1,0 +1,334 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+.bold{
+    font-weight: bold;
+}
+.navbar-brand{
+    width: 200px;
+    color: #111b1b;
+    padding: 10px 0px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #121c1c !important;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1px solid #e8887d !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active i{
+    color: #e8887d !important;
+}
+.nav-tabs .nav-item .nav-link{
+    color: #cdcfd2;
+    background-color: #fff;
+    border: 0 #important;
+}
+.bg-grey{
+    background: #eee;
+}
+.user-img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.user-img img{
+    height: 100%;
+    border-radius: 50%;
+}
+.user-info p{
+    font-size: 12px;
+color: #b1adad;
+}
+#main-menu{
+    padding: 25px;
+}
+.font-pink{
+    color: #e8887d;
+}
+.list-group-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+a.list-group-item {
+    color: #000;
+}
+.collapse.list-group-level1 a.list-group-item{
+    background: transparent ;
+}
+a.list-group-item:hover,
+a.list-group-item:focus {
+    background-color: #fff;
+    color: #e8887d;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+    color: #FFF;
+    background-color: #e8887d;
+    border: none;
+    border-radius: 4px;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+    border-radius: 4px;
+}
+
+.list-group-level1 .list-group-item {
+    padding-left:30px;
+}
+
+.list-group-level2 .list-group-item {
+    padding-left:60px;
+}
+.chat-block{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 8px 2px #a29c9c;
+}
+.chat-block .nav-link{
+    padding: 10px;
+    line-height: .5;
+    border-bottom: 1px solid #cec7c7;
+}
+.chat-block .nav-link:hover{
+    background-color: #fcf0ef;
+}
+.chat-block .nav-link span{
+    font-size: 10px;
+}
+.chat-block .nav-pills{
+    border-right: 1px solid #cec7c7;
+}
+.chat-person-img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.chat-person-img img{
+    height: 100%;
+    border-radius: 50%;
+}
+.chat-person-details p {
+    font-size: 10px;
+}
+.chat-block .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fcf0ef;
+    border-bottom: 1px solid #e8887d;
+}
+.chat-header{
+    border-bottom: 1px solid #cec7c7;
+}
+.total-chats{
+    font-size: 10px;
+}
+.msg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+.msg .bubble {
+  float: left;
+  max-width: 75%;
+  width: auto;
+  height: auto;
+  display: block;
+  background: #fcf0ef;
+  border-radius: 8px 8px 0px 8px;
+  position: relative;
+  margin: 10px 0 3px 25px;
+}
+.msg .bubble.alt {
+  margin: 10px 25px 3px 0px;
+  background: #fcf0ef;
+  float: right;
+}
+.msg .bubble.follow {
+  margin: 2px 0 3px 25px;
+}
+.msg .bubble.altfollow {
+  margin: 10px 25px 3px 0px;
+  background: #fcf0ef;
+  float: right;
+}
+.msg .bubble .txt {
+  padding: 8px 0 8px 0;
+  width: 100%;
+}
+.msg .bubble .txt .name {
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-table;
+  padding: 0 0 0 15px;
+  margin: 0 0 4px 0;
+  color: #3498db;
+}
+.msg .bubble .txt .name span {
+  font-weight: normal;
+  color: #b3b3b3;
+  overflow: hidden;
+}
+.msg .bubble .txt .name.alt {
+  color: #2ecc51;
+}
+.msg .bubble .txt .message {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 15px 0 15px;
+  margin: auto;
+  color: #2b2b2b;
+  display: table;
+}
+.msg .bubble .txt .timestamp {
+  font-size: 11px;
+  margin: auto;
+  padding: 0 15px 0 0;
+  display: table;
+  float: right;
+  position: relative;
+  text-transform: uppercase;
+  color: #999;
+}
+.msg .bubble .bubble-arrow {
+  position: absolute;
+  float: left;
+  left: -11px;
+  bottom: 0px;
+}
+.msg .bubble .bubble-arrow.alt {
+  bottom: 15px;
+  left: auto;
+  right: 4px;
+  float: right;
+}
+.msg .bubble .bubble-arrow:after {
+  content: "";
+  position: absolute;
+  border-top: 15px solid #ebebeb;
+  border-left: 15px solid transparent;
+  border-radius: 4px 0 0 0px;
+  width: 0;
+  height: 0;
+}
+.msg .bubble .bubble-arrow.alt:after {
+  border-top: 15px solid #fcf0ef;
+  transform: scaleX(-1);
+  transform: rotate(180deg);
+}
+.h-60{
+    height: 60vh;
+}
+.conversation {
+    height: calc(100% - 12px);
+    position: relative;
+    z-index: 0;
+}
+.conversation .conversation-container {
+    height: calc(100% - 68px);
+    overflow-x: hidden;
+    padding: 0 16px;
+    margin-bottom: 5px;
+}
+.conversation-compose {
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+.conversation-compose .input-msg {
+    border: 0;
+    flex: 1 1 auto;
+    font-size: 16px;
+    margin: 0;
+    outline: none;
+    min-width: 50px;
+}
+.conversation-compose div, .conversation-compose input {
+    background: #fff;
+    height: 100%;
+}
+.conversation-compose .photo {
+    flex: 0 0 auto;
+    border-radius: 0 0 5px 0;
+    text-align: center;
+    position: relative;
+    width: 48px;
+}
+.conversation-compose div, .conversation-compose input {
+    background: #fff;
+    height: 100%;
+}
+.conversation-compose .photo i {
+    display: block;
+    color: #7d8488;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+.conversation-compose .photo:after {
+    border-width: 0px 0 10px 10px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    position: absolute;
+    width: 0;
+    height: 0;
+    content: "";
+    top: 0;
+    right: -10px;
+}
+
+.conversation-compose .send {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    flex: 0 0 auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 0;
+    position: relative;
+    outline: none;
+}
+.conversation-compose .send .circle {
+    background: #e8887d;
+border-radius: 6px;
+color: #fff;
+position: relative;
+width: 100px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+
+  .timestamp {
+    display: none;
+    color: red;
+  }
+}
